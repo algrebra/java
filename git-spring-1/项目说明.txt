@@ -1,2 +1,4 @@
 1.遇见的问题：在git上share项目的时候，web libraries中的jar包位置
 会发生改变     解决方法：先把web lib 删除，然后在生成
+
+2.通过AnnotationConfigApplicationContext获取bean
