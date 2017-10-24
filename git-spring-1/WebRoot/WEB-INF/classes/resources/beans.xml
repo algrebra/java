@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"  
+    xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"  
+    xsi:schemaLocation="  
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd  
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd  
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
+
+<!-- spring负责装配 ，写配置文件的过程其实就是装配的过程 -->
+
+<!-- 默认查找class的时候，都是在系统的classpath目录下
+不同的系统的claapath也不一样，具体的是由类加载器所规定的
+例如在spring配置文件中：classpath就是系统的classpath，
+即例如D:\spring project\spring\src下面
+而对于tomcat来说classpath除了系统的，还有自己的，即/web-inf/classes
+还有/web-inf/lib
+ -->
+ 
+ 
+ 
+ 
+</beans>
